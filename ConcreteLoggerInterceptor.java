@@ -29,17 +29,11 @@ public class ConcreteLoggerInterceptor implements LoggerInterceptor {
         String cust = context.getCustomer();
         int frp = context.IFRP();
         String fileName = "MovieRentalSystem.log";
-        System.out.println("Logging things..."); 
-        System.out.println(mov); 
-        System.out.println(cust); 
-
 
 
         // Get date and time for logging purpose
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
         LocalDateTime now = LocalDateTime.now();  
-        System.out.println(dtf.format(now));
-
 
 
         try {

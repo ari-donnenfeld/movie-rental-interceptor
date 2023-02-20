@@ -43,9 +43,6 @@ public class MovieRentalSystem {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello there");
-
-
 
         Dispatcher disp = new Dispatcher();
         ConcreteLoggerInterceptor cli = new ConcreteLoggerInterceptor(); 
