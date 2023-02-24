@@ -1,5 +1,6 @@
 /*
  *
+ * Dispatcher
  *
  * Collaborator: interceptor, Application
  *
@@ -24,7 +25,6 @@ public class Dispatcher {
     }
 
     public void detach(ConcreteLoggerInterceptor cli) {
-        // clis.remove(Integer.valueOf(cli));
         clis.remove(cli);
     }
 
